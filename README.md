@@ -7,4 +7,8 @@ React.JS Based Weather app.Used www.metaweather.com as api for data and handled 
 ![screenshot 3](https://user-images.githubusercontent.com/44313607/52170511-d7ff4b00-2775-11e9-80a9-400adee4aed6.png)
 # Woe ID Based Search
 ![screenshot 4](https://user-images.githubusercontent.com/44313607/52170512-d7ff4b00-2775-11e9-9dd4-0669b752f791.png)
-## handled CORS and all the other request With Express.js
+### handled CORS and all the other request With Express.js
+### Three available Routes in the app
+* '/' for default view of the app
+* '/search/:city' for searching with area name
+* '/woeid/:id' for searching with unique id of areas
